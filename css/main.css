@@ -151,6 +151,11 @@ nav .ong{
   height: 20px;
   background-color: #58737d;
   border-radius: 50%;
+  transition: all .3s ease;
+}
+
+.div:hover {
+  background-color: orange;
 }
 
 .blok {
@@ -188,6 +193,11 @@ nav .ong{
   background-color: #3aa39f;
   color: white;
   border-radius: 5px;
+  transition: all .3s ease;
+}
+
+.add-card:hover {
+  background-color: rgb(113, 113, 232);
 }
 
 .sale {
