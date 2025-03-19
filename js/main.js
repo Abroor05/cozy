@@ -11,7 +11,9 @@ plas.addEventListener("click", ()=>{
 
 
 minus.addEventListener("click", ()=>{
-    qosh -= 1;
-    count.textContent = qosh;
+    if(qosh > 0) {
+        qosh -= 1
+        count.textContent = qosh
+    }
 })
 

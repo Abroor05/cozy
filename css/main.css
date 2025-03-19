@@ -28,11 +28,17 @@ nav .container {
   list-style: none;
 }
 
+
 .links a {
   text-decoration: none;
   color: #17183b;
   font-weight: 600;
   font-size: 14px;
+  transition: all .3s ease;
+}
+
+.links a:hover{
+  color: orange;
 }
 
 nav .imgs {
@@ -46,6 +52,11 @@ nav .chap {
   gap: 30px;
   border-right: 1px solid black;
   padding: 0 20px;
+  cursor: pointer;
+}
+
+nav .ong{
+  cursor: pointer;
 }
 
 /* hero */
