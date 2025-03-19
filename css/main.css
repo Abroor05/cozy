@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #d1d1d8;
+  margin-bottom: 50px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: #17183b;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+nav .imgs {
+  display: flex;
+  gap: 30px;
+}
+
+nav .chap {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border-right: 1px solid black;
+  padding: 0 20px;
+}
+
+/* hero */
+
+/* .hero .container {    
+    margin-bottom: 100px;
+} */
+
+.container .hammasi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.hero_letf {
+  width: 460px;
+  padding: 30px 0;
+}
+
+.back {
+  margin-bottom: 20px;
+}
+
+.hero_letf .title {
+  font-size: 14px;
+  color: #17183b;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.hero_letf .title span {
+  color: #a2a3b1;
+}
+
+.hero_letf h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #17183b;
+  margin-bottom: 20px;
+}
+
+.hero_letf .narx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.baho {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+  color: gold;
+  gap: 5px;
+}
+
+.narx h4 {
+  font-size: 24px;
+  color: #17183b;
+}
+
+.baho h6 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.baho h6 span {
+  color: #a2a3b1;
+}
+
+.malumot {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.divlar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.div {
+  width: 20px;
+  height: 20px;
+  background-color: #58737d;
+  border-radius: 50%;
+}
+
+.blok {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.blok .add {
+  box-shadow: 0 0 10px rgb(178, 174, 174);
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  align-items: center;
+  font-size: 20px;
+}
+
+.boshqarish {
+  padding: 2px 10px;
+  border: none;
+  background-color: white;
+  border: 1px solid rgb(219, 214, 214);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.add-card {
+  box-shadow: 0 0 10px rgb(178, 174, 174);
+  padding: 10px 30px;
+  border: none;
+  background-color: #3aa39f;
+  color: white;
+  border-radius: 5px;
+}
+
+.sale {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.sale a {
+  color: #17183b;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.foter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foter .left {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #3aa39f;
+  gap: 10px;
+}
+
+.foter .right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+}
+
+/* right */
+
+.hero .hero-right {
+  width: 600px;
+}
+
+.hero .hero_right img {
+  width: 100%;
+}
+
+.right-title {
+  text-align: end;
+}
+
+.right-title .tugma {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 60px;
+  font-size: 20px;
+}
+
+.right-title h3 {
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.right-title h3 span {
+  color: gray;
+  font-size: 24px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.card {
+  width: 100px;
+  border: 1px solid rgb(195, 189, 189);
+}
+
+.card img {
+  width: 100%;
+}
