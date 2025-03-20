@@ -184,6 +184,7 @@ nav .ong{
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .add-card {
